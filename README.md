@@ -10,7 +10,7 @@ Motivation: *Poor Man's Discord Nitro*
 
 # How It Works
 - Since Discord autoembeds images, we can paste in links to custom emotes
-- The emote picker is written in Python with [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI), with global hotkeys for activation (using [keyboard](https://github.com/boppreh/keyboard))
+- The emote picker GUI is written in Python, with global hotkeys for activation
 
 # Getting Started
 - Clone this repo: `git clone https://github.com/dchen327/pingmote.git` or download as a zip and extract
@@ -30,7 +30,6 @@ Motivation: *Poor Man's Discord Nitro*
 - Gif resizing (disabled by default) requires `gifsicle`, but a website like [ezgif](https://ezgif.com/resize) also works
 - Resize gifs to 64x64 and drop them in `assets/original` (they'll be ignored when the resizer is run)
 - Upload files from `assets/resized` to an image hoster (I like [postimages](https://postimages.org/)). Copy the direct image links (ending in file extension) and paste in `links.txt`
-- A simpler alternative using GitHub: fork this repo and push your images, then drop your forked repo's URL in config.py (GITHUB_URL). This method doesn't require alternate hosting or `links.txt`
 - Note: Imgur doesn't work currently, since Imgur links don't contain the original filename
 - Some emote sources (right click > save image): [discordmojis.com](https://discordmojis.com/), [emoji.gg](https://emoji.gg/), [discord.st](https://discord.st/emojis/)
 
@@ -61,7 +60,6 @@ Motivation: *Poor Man's Discord Nitro*
 - Thanks to [Luke Tong](https://github.com/luke-rt) for cross-platform GUI and clipboard testing
 - Thanks to [Stephane Morel](https://github.com/SoAsEr) for Windows testing
 - Thanks to [Brazil-0034](https://github.com/Brazil-0034) for adding support for non-destructive pasting
-- Thanks to [PySimpleGUI](https://github.com/PySimpleGUI) for major feature additions and debugging
 
 # Progress Timeline
 - Initial method (50 lines): `xclip` for copying local images, `xdotool` for pasting and keyboard commands
