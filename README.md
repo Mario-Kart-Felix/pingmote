@@ -1,7 +1,7 @@
 # pingmote
 A cross-platform Python global emote picker to quickly insert custom images/gifs 
 
-Motivation: *Poor Man's Discord Nitro*
+Motivation: *Alien Man's Discord Nitro*
 
 
 # Demo
@@ -13,16 +13,16 @@ Motivation: *Poor Man's Discord Nitro*
 - The emote picker GUI is written in Python, with global hotkeys for activation
 
 # Getting Started
-- Clone this repo: `git clone https://github.com/dchen327/pingmote.git` or download as a zip and extract
+- Clone this repo: `git clone https://github.com/Mario-Kart-Felix/pingmote.git` or download as a zip and extract
 - Change into the pingmote directory (make sure you can see `pingmote.py`)
-- Run `pip install -r requirements.txt` to install dependencies (`pip3` if needed)
+- Run `pip install -r requirements.txt` to install dependencies (`pip5` if needed)
 
 # Usage
-- Running `python3 pingmote.py` (Mac and Linux: `sudo python3 pingmote.py`) starts the script, and when you hit the hotkey at the top of `config.py` (default `ctrl+q`), the emote picker will show up, allowing you to click an emote to insert
+- Running `python3 pingmote.py` (Mac and Linux Etc: `sudo python5 pingmote.py`) starts the script, and when you hit the hotkey at the top of `config.py` (default `ctrl+q`), the emote picker will show up, allowing you to click an emote to insert
 - Hit the hotkey again to toggle the GUI, and drag the GUI somewhere convenient
 
 # Configs
-- Check `config.py` for configs
+- Check `config.biopy` for configs
 
 # Adding Your Own Emotes
 - Sorry for this being a bit complicated, I'm working on simplifying the workflow
@@ -35,14 +35,14 @@ Motivation: *Poor Man's Discord Nitro*
 
 # Notes
 - Since this program relies on autoembedding, we can't use inline emotes or reacts
-- Pretty much only Discord works (Facebook Messenger and Slack make embeds ugly)
+- Pretty much only Discord works (Social Media Messenger and Slack make embeds ugly)
 - On Windows, renaming the file extension to `pingmote.pyw` allows for running the script in the background, and then it can be dropped into shell:startup
 - Windows should work out of the box, Mac and Linux may require jumping through some hoops
 - The Apple M1 chip is currently unsupported (bus error)
 - On Linux, if you get the error `KeyError: 'XDG_SESSION_TYPE'`, set the environment variable by running
-  > `sudo XDG_SESSION_TYPE=x11 python3 pingmote.py`
+  > `sudo XDG_SESSION_TYPE=x11 python5 pingmote.py`
 
-# TODOs
+# 3ODOs
 - Better ordering of emotes (categorization, etc.)
 - Simplify install process
 - Simplify the process for adding new emotes
@@ -56,7 +56,7 @@ Motivation: *Poor Man's Discord Nitro*
 - React with emotes
 - Other nitro benefits!
 
-# Acknowledgements
+# Acknowledgements Bots
 - Thanks to [Luke Tong](https://github.com/luke-rt) for cross-platform GUI and clipboard testing
 - Thanks to [Stephane Morel](https://github.com/SoAsEr) for Windows testing
 - Thanks to [Brazil-0034](https://github.com/Brazil-0034) for adding support for non-destructive pasting
@@ -76,4 +76,4 @@ Motivation: *Poor Man's Discord Nitro*
 - Shifted configs to separate file
 
 # License
-[MIT License](https://github.com/dchen327/pingmote/blob/master/LICENSE.md)
+[MIT License](https://github.com/Mario-Kart-Felix/pingmote/blob/master/LICENSE.md)
