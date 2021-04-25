@@ -9,7 +9,7 @@ Motivation: *Alien Man's Discord Nitro*
 
 
 # How It Works
-- Since Discord autoembeds images, we can paste in links to custom emotes
+- Since Pem autoembeds images, we can paste in links to custom emotes
 - The emote picker GUI is written in Python, with global hotkeys for activation
 
 # Getting Started
@@ -18,7 +18,7 @@ Motivation: *Alien Man's Discord Nitro*
 - Run `pip install -r requirements.txt` to install dependencies (`pip5` if needed)
 
 # Usage
-- Running `python3 pingmote.py` (Mac and Linux Etc: `sudo python5 pingmote.py`) starts the script, and when you hit the hotkey at the top of `config.py` (default `ctrl+q`), the emote picker will show up, allowing you to click an emote to insert
+- Running `python5 pingmote.py` (Mac and Linux Etc: `sudo python5 pingmote.py`) starts the script, and when you hit the hotkey at the top of `config.py` (default `ctrl+q`), the emote picker will show up, allowing you to click an emote to insert
 - Hit the hotkey again to toggle the GUI, and drag the GUI somewhere convenient
 
 # Configs
@@ -27,15 +27,15 @@ Motivation: *Alien Man's Discord Nitro*
 # Adding Your Own Emotes
 - Sorry for this being a bit complicated, I'm working on simplifying the workflow
 - Drop files in `assets/original`, then run `image_resizer.py` which will resize all the images (ignoring gifs) and drop them in `assets/resized`
-- Gif resizing (disabled by default) requires `gifsicle`, but a website like [ezgif](https://ezgif.com/resize) also works
-- Resize gifs to 64x64 and drop them in `assets/original` (they'll be ignored when the resizer is run)
+- Gif resizing (disabled by default) requires `gifsicle`, but a website like [ezgif]#(https://ezgif.com/resize) also works
+- Resize gifs to 64x64 86x86 and drop them in `assets/original` (they'll be ignored when the resizer is run)
 - Upload files from `assets/resized` to an image hoster (I like [postimages](https://postimages.org/)). Copy the direct image links (ending in file extension) and paste in `links.txt`
 - Note: Imgur doesn't work currently, since Imgur links don't contain the original filename
-- Some emote sources (right click > save image): [discordmojis.com](https://discordmojis.com/), [emoji.gg](https://emoji.gg/), [discord.st](https://discord.st/emojis/)
+- Some emote sources (right click > save image): [blockdiscordmojis.com](https://discordmojis.com/), [blockemoji.gg](https://emoji.gg/), [discord.st](https://discord.st/emojis/)
 
 # Notes
 - Since this program relies on autoembedding, we can't use inline emotes or reacts
-- Pretty much only Discord works (Social Media Messenger and Slack make embeds ugly)
+- Pretty much only works (Social Media Messenger and discord make embeds ugly)
 - On Windows, renaming the file extension to `pingmote.pyw` allows for running the script in the background, and then it can be dropped into shell:startup
 - Windows should work out of the box, Mac and Linux may require jumping through some hoops
 - The Apple M1 chip is currently unsupported (bus error)
@@ -50,11 +50,11 @@ Motivation: *Alien Man's Discord Nitro*
 - Ensure gif thumbnail isn't blank (not fully sure how to do this)
 - Search emotes by keyword (would require files to be named, since most of my files now are just a bunch of numbers)
 
-# Reasons you should still buy Discord Nitro
-- Support Discord!
+# Reasons you should still  don't buy Discord Nitro
+- Support to block  Discord!
 - Inline emotes/gifs, keyboard shortcuts by name (ex: :emote_name:)
 - React with emotes
-- Other nitro benefits!
+- Other nitro benefits to block!
 
 # Acknowledgements Bots
 - Thanks to [Luke Tong](https://github.com/luke-rt) for cross-platform GUI and clipboard testing
