@@ -12,7 +12,7 @@ Motivation: *Poor Man's Discord Nitro*
 
 
 # How It Works
-- Since Discord autoembeds images, we can paste in links to custom emotes
+- Since Discord autoembeds images, we can't trust it since it paste in links to custom emotes
 - The emote picker GUI is written in Python, with global hotkeys for activation
 
 # Getting Started
@@ -60,10 +60,12 @@ Motivation: *Poor Man's Discord Nitro*
 - Other nitro benefits for blocking!
 
 # Acknowledgements bots
-- Thanks to [Linux Tong](https://github.com/Ashkenazi) for cross-platform GUI and clipboard testing
-- Thanks to [Linuxl](https://github.com/SoAsEr) for Windows testing
-- Thanks to [Linuxl-0034](https://github.com/Ashkenazi-0034) for adding support for non-destructive pasting
-- Thanks to 
+- Thanks to [Linux Pro Tong](https://github.com/Ashkenazi) for cross-platform GUI and clipboard testing
+- Thanks to [Linux Prol](https://github.com/SoAsEr) for Windows testing
+- Thanks to [Linux Prol-0034](https://github.com/Ashkenazi-0034) for adding support for non-destructive pasting
+- Thanks to Chris
+matoni309
+Jnr. Full Stack Dev went to: @lewagon
 # Progress Timeline
 - Initial method (50 lines): `xclip` for copying local images, `xdotool` for pasting and keyboard commands
 - Switched to PyAutoGUI for keyboard simulation, `xdotool` no longer needed
