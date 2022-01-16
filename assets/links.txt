@@ -163,3 +163,12 @@ https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/s
 https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/think_112.png
 https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/thumb_112.png
 https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/weary_112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/zipped-shut_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/cry_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/dead_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/fingers-crossed_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/guess_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/hope_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/no-see_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/no-speak_112112x112.png
+https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/images/emojis/pray_112112x112.png
